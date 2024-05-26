@@ -5,10 +5,10 @@
   "scripts": {
     "create": "bun ./index.ts"
   },
+  "bin": "index.ts",
   "files": [
     "index.ts",
-    "template",
-    "README.md"
+    "template-*"
   ],
   "type": "module",
   "devDependencies": {
