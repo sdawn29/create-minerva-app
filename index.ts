@@ -10,5 +10,5 @@ fs.readdirSync(templateDir).forEach((file) => {
   const sourcePath = path.join(templateDir, file);
   const targetPath = path.join(targetDir, file);
 
-  fs.copyFileSync(sourcePath, targetPath);
+  fs.cpSync(sourcePath, targetPath, { recursive: true });
 });
