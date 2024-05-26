@@ -5,6 +5,11 @@
   "scripts": {
     "create": "bun ./index.ts"
   },
+  "files": [
+    "index.ts",
+    "template",
+    "README.md"
+  ],
   "type": "module",
   "devDependencies": {
     "@types/bun": "latest"
@@ -18,5 +23,8 @@
     "minerva-app"
   ],
   "author": "Snehasish Dawn",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": "^18.0.0 || >=20.0.0"
+  }
 }
