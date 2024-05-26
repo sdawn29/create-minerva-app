@@ -1,0 +1,22 @@
+{
+  "name": "create-minerva-app",
+  "description": "A template for scafolding backend and frontend applications",
+  "module": "index.ts",
+  "scripts": {
+    "create": "bun ./index.ts"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "create",
+    "template",
+    "minerva-app"
+  ],
+  "author": "Snehasish Dawn",
+  "license": "MIT"
+}
